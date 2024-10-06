@@ -2,55 +2,62 @@
 
 ###Testovací prípad TC- kompletný proces objednania tovaru na stránke [https://www.saucedemo.com/inventory.html]
 
-**Predpoklady**: používateľ je zaregistrovaný a má vytvorený účet do ktorého sa prihlasuje pod svojím užívateľským menom a heslom
+**Predpoklady**: používateľ je zaregistrovaný a má vytvorený aktívny účet s loginom a heslom
 
 ---
 
 ###Testovacie kroky##
 
-1. **Prihlásenie používateľa**
-- Otvorenie prehliadača a navigácia  na URL [https://www.saucedemo.com/inventory.html]
-- Zadanie používateľského mena a hesla a kliknutie na tlačidlo "Login"
 
+1. **Prihlásenie používateľa**:
+Otvor webový prehliadač a prejdi na URL [https://www.saucedemo.com/inventory.html]
+Zadaj svoje prihlasovacie údaje (používateľské meno a heslo).
+Klikni na tlačidlo Login.
+Ak sú údaje správne, používateľ bude úspešne prihlásený a presmerovaný na hlavnú stránku.
 
-2. **Zobrazenie produktov na stránke**
-- Na Homepage sa užívateľoví zobrazí ponuka produktov s uvedeným názvom,krátkym popisom produktu, cenou a možnosťou kliknúť na  tlačidlo "Add to Cart"
+2. **Zobrazenie produktov**:
+Na hlavnej stránke sa zobrazí zoznam dostupných produktov, pričom každý produkt má uvedený názov, popis, cenu a tlačidlo "Add to Cart" na pridanie do košíka.
 
-2. ** Pridanie tovaru do nákupného košíka"
-- Používateľ klikne na tlačídlo "Add to card" prislúchajúce k zvolenému produktu, ktoré sa zmení na  "Remove"
-- ikona nákupného košíka v pravom hornom rohu sa zmení a zobrazí počet pridaných produktov do košíka
+3. **Pridanie produktu do košíka**:
+Používateľ vyberie požadovaný produkt a klikne na tlačidlo "Add to Cart".
+Po pridaní produktu sa tlačidlo zmení na Remove, čo indikuje, že produkt bol úspešne pridaný do nákupného košíka.
+V pravom hornom rohu sa aktualizuje ikona nákupného košíka a zobrazuje počet pridaných položiek.
 
-4. **Kontrola obsahu nákupného košíka**
-- Používateľ klikne na ikonu nákupného košíka, následne je presmerovaný do sekcie "Your Cart"
-- sekcia "Your Cart" by mala obsahovať vybrané položky nákupného košíka s popisom, zobrazeným presným množstvom a zodpovedajúcou cenou
+4. **Kontrola obsahu nákupného košíka**:
+Kliknutím na ikonu košíka je používateľ presmerovaný do sekcie "Your Cart".
+V tejto sekcii sa zobrazuje zoznam pridaných produktov vrátane ich názvu, množstva a ceny.
 
-5. **Pokladňa**
-- V sekcii "Your Cart" si používateľ môže zvoliť z dvoch možností, a to "Continue Shopping", ktorá ho presmeruje na domovskú stránku, v tomto prípade pokračuje v dokončení objednávky a  zvolí tlačidlo "Checkout"
+5. **Pokračovanie k pokladni**:
+Používateľ má možnosť pokračovať v nákupe cez tlačidlo "Continue Shopping" alebo prejsť na pokladňu kliknutím na tlačidlo "Checkout".
+Zvoľ možnosť "Checkout"
 
-6. **Vyplnenie údajov o objednávke**
-Následne je používateľ presmerovaný na sekciu "Checkout: Your Information" kde postupne vypĺňa do 3 textových polí zoradených pod sebou svoje údaje v poradí 1. textové pole by malo obsahovať meno, druhé priezvisko a do posledného textového poľa zadáva poštové smerové číslo. Z dvoch zobrazených možností zvolí a klikne na tlačidlo "Continue".
+6. **Vyplnenie údajov objednávky**:
 
-7. **Súhrn objednávky**
-Používateľ je presmerovaný do sekcie "Checkout: Overview" ktorá obsahuje kompletnú informáciu a vytváranej objednávke:
+Používateľ je presmerovaný na stránku Checkout: Your Information, kde zadá požadované informácie do textových polí:
+First Name: Meno používateľa.
+Last Name: Priezvisko používateľa.
+Postal Code: Poštové smerové číslo.
+Po vyplnení údajov klikne na tlačidlo Continue.
 
-* položka objednávky s jej krátkym popisom, objednavaným množstvom a cenou
-*informácie o platbe: číslo kreditnej/debetnej karty
-*informácie o doprave, kde bude uvedený názov prepravnej spoločnosti a cena za dopravu
-* celková cena za obednávku, ktorá je súčtom ceny produktu a dane
+7. **Súhrn objednávky**:
+Stránka Checkout: Overview zobrazí kompletný prehľad objednávky, ktorý zahŕňa:
+Zoznam objednaných produktov s názvami, množstvom a cenami.
+Informácie o platbe (napr. kreditná/debetná karta).
+Informácie o doprave (prepravná spoločnosť a cena dopravy).
+Celkovú sumu, vrátane dane a dopravy.
 
-8. **Dokončenie objednávky**
-Na stránke za zobrazia  dve tlačidlá:
--zrušiť objednávku (tlačidlo Cancel), po zakliknutí presmeruje používateľa na domovskú stránku
-- používateľ zvolí a klikne na tlačidlo "Finish", teda dokončenie objednávky
+8. **Dokončenie objednávky**:
+Používateľ môže dokončiť alebo zrušiť objednávku výberom jednej z dvoch možností:
+Kliknutím na Cancel sa objednávka zruší a používateľ bude presmerovaný na domovskú stránku.
+Vyber druhú možnosť a klikni na tlačido Finish na dokončenie objednávky.
+Kliknutím na Finish sa objednávka úspešne dokončí a zobrazí sa hlásenie Checkout: Complete! s potvrdením Thank you for your order!.
 
-9. **Potvrdenie objednávky**
-Po potvrdení objednávky sa zmení stav na "Checkout: Complete!" so hláškou: **Thank you for your order!** potvrdzujúcou úspešné vytvorenie objednávky.
+9. **Návrat na domovskú stránku**:
+Používateľ klikne na tlačidlo Back Home a je presmerovaný späť na hlavnú stránku.
 
-10. **Návrat na domovskú stránku**
-Pre návrat na Homepage používateľ klikne na tlačidlo "Back Home", ktoré ho presmeruje na hlavnú stránku.
-
-11. **Odhlásenie používateľa**
--v ľavom hornom rohu používateľ klikne na Hamburger-menu, kde je jednou z vylistovaných možností odhlásenie "Logout", zvolí si danú možnosť a dostáva sa na stránku na prihlásenie do aplikácie.
+10. **Odhlásenie používateľa**:
+Používateľ klikne na ikonu Hamburger-menu v ľavom hornom rohu a z ponuky vyberie možnosť "Logout".
+Po odhlásení je používateľ presmerovaný na úvodnú stránku s prihlásením.
 
 
 ---
