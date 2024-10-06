@@ -34,9 +34,9 @@ Zvoľ možnosť "Checkout"
 6. **Vyplnenie údajov objednávky**:  
 
 Používateľ je presmerovaný na stránku Checkout: Your Information, kde zadá požadované informácie do textových polí:  
-First Name: Meno používateľa.  
-Last Name: Priezvisko používateľa.  
-Postal Code: Poštové smerové číslo.  
+First Name: Meno používateľa.
+Last Name: Priezvisko používateľa.
+Postal Code: Poštové smerové číslo.
 Po vyplnení údajov klikne na tlačidlo Continue.  
 
 7. **Súhrn objednávky**:  
