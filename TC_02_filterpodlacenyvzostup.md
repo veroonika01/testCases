@@ -1,7 +1,7 @@
 
 ### Testovací prípad TC02- Filtrovanie produktov podľa ceny od najnižšej po najvyššiu
 
-**Predpoklady**: Používateľ je registrovaný a úspešne prihlásený do portálu
+**Predpoklady**: Používateľ je registrovaný a úspešne prihlásený do portálu [https://www.saucedemo.com/inventory.html]
 
 ---
 
