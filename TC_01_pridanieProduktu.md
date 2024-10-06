@@ -1,11 +1,11 @@
 
-# Testovací prípad TC01- pridanie tovaru do nákupného košíka na webovej stránke "https://www.saucedemo.com"/
+## Testovací prípad TC01- pridanie tovaru do nákupného košíka na webovej stránke "https://www.saucedemo.com"/
 
 **Predpoklady**: Používateľ je registrovaný a úspešne prihlásený do portálu
 
 ---
 
-###Testovacie kroky
+### Testovacie kroky
 
 1. **Zobrazenie produktov na stránke**
 - Na Homepage sa užívateľoví zobrazí ponuka produktov s uvedeným názvom, cenou a tlačidlom "Add to Cart"
