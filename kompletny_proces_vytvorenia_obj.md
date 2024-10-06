@@ -9,9 +9,9 @@
 ### Testovacie kroky
 
 
-1. **Prihlásenie používateľa**:
-Otvor webový prehliadač a prejdi na URL [https://www.saucedemo.com/inventory.html]
-Zadaj svoje prihlasovacie údaje (používateľské meno a heslo).
+1. **Prihlásenie používateľa**:  
+Otvor webový prehliadač a prejdi na URL [https://www.saucedemo.com/inventory.html]  
+Zadaj svoje prihlasovacie údaje (používateľské meno a heslo).  
 Klikni na tlačidlo Login.
 Ak sú údaje správne, používateľ bude úspešne prihlásený a presmerovaný na hlavnú stránku.
 
