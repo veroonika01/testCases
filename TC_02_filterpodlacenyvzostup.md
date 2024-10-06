@@ -1,5 +1,5 @@
 
-#Testovací prípad TC02- Filtrovanie produktov podľa ceny od najnižšej po najvyššiu
+## Testovací prípad TC02- Filtrovanie produktov podľa ceny od najnižšej po najvyššiu
 
 **Predpoklady**: Používateľ je registrovaný a úspešne prihlásený do portálu
 
@@ -25,4 +25,4 @@ Po kliknutí na ikonu filtra a zvolení možnosti filtrovať podľa ceny od najn
 
 
 
-# Výsledok testu: Pass/Fail
+## Výsledok testu: Pass/Fail
