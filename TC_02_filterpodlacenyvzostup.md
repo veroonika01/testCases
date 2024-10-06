@@ -1,11 +1,11 @@
 
-## Testovací prípad TC02- Filtrovanie produktov podľa ceny od najnižšej po najvyššiu
+### Testovací prípad TC02- Filtrovanie produktov podľa ceny od najnižšej po najvyššiu
 
 **Predpoklady**: Používateľ je registrovaný a úspešne prihlásený do portálu
 
 ---
 
-##Testovacie kroky##
+### Testovacie kroky##
 
 1. **Zobrazenie produktov na stránke**
 Po prihlásení sa používateľovi na domovskej stránke zobrazí dostupná ponuka produktov. Každý produkt je prezentovaný  názvom, cenou, tlačidlom "Add to Cart" a súčasne sa na hlavnej stránke zobrazuje ikona filtra na úpravu zobrazenia produktov v pravom rohu.
@@ -16,13 +16,13 @@ Používateľ klikne na ikonu filtra, čím sa zobrazí rozbaľovacie menu. Z do
 4. **Kontrola zobrazenia produktov podľa filtra**
 Používateľ následne skontroluje, či sa produkty na stránke zobrazujú vo vzostupnom poradí, od najnižšej ceny po najvyššiu.
 
-## Očakávané výsledky:
+### Očakávané výsledky:
 Po kliknutí na ikonu filtra a zvolení možnosti filtrovať podľa ceny od najnižšej po najvyššiu sa položky na stránke viditeľne usporiadali podľa ceny vzostupne
 
-## Skutočné výsledky:
+### Skutočné výsledky:
 
 ---
 
 
 
-## Výsledok testu: Pass/Fail
+### Výsledok testu: Pass/Fail
