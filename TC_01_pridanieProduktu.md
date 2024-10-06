@@ -10,7 +10,7 @@
 1. **Zobrazenie produktov na stránke**
 - Na Homepage sa užívateľoví zobrazí ponuka produktov s uvedeným názvom, cenou a tlačidlom "Add to Cart"
 
-2. ** Pridanie tovaru do nákupného košíka"
+2. **Pridanie tovaru do nákupného košíka**
 - Používateľ klikne na tlačídlo "Add to card" prislúchajúce k zvolenému produktu, ktoré sa zmení na možnosť "Remove"
 - ikona nákupného košíka v pravom hornom rohu sa zmení a zobrazí počet pridaných produktov do košíka
 
