@@ -1,12 +1,12 @@
 
 
-###Testovací prípad TC- kompletný proces objednania tovaru na stránke [https://www.saucedemo.com/inventory.html]
+### Testovací prípad TC- kompletný proces objednania tovaru na stránke [https://www.saucedemo.com/inventory.html]
 
 **Predpoklady**: používateľ je zaregistrovaný a má vytvorený aktívny účet s loginom a heslom
 
 ---
 
-###Testovacie kroky##
+### Testovacie kroky
 
 
 1. **Prihlásenie používateľa**:
