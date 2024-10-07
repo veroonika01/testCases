@@ -8,6 +8,6 @@ TC_01_pridanieProduktuDoKosika.md: Testovací prípad na pridanie produktu do ko
 TC_02_filtrovaniePodlaCeny.md: Testovací prípad na filtrovanie produktov podľa ceny vzostupne).  
 TC_procesDokonceniaObjednavky.md: Testovací prípad pre kompletný proces vytvorenia objednávky.  
 
-####Ako použiť
+#### Ako použiť
 Tieto testovacie prípady môžu byť využité ako súčasť manuálnych alebo automatizovaných testovacích procesov.   
 Popisujú každý krok podrobne, od prihlásenia na stránku až po overenie očakávaného správania platformy.
