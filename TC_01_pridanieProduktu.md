@@ -1,5 +1,5 @@
 
-### Testovací prípad TC01- pridanie tovaru do nákupného košíka na webovej stránke "https://www.saucedemo.com"/
+### Testovací prípad TC01- pridanie tovaru do nákupného košíka na webovej stránke [https://www.saucedemo.com]
 
 **Predpoklady**: Používateľ je registrovaný a úspešne prihlásený do portálu
 
@@ -21,7 +21,7 @@
 #### Očakávané výsledky:
 - Tlačidlo **"Add to Cart"** sa po pridaní produktu zmení na "Remove".
 - Ikona nákupného košíka bude zobrazovať počet pridaných produktov.
-- Stránka **"Your Cart"** zobrazí všetky pridané produkty s ich názvom, množstvom a ceno
+- Stránka **"Your Cart"** zobrazí všetky pridané produkty s ich názvom, množstvom a cenou
 
 ##### Skutočné výsledky:
 
